@@ -57,3 +57,24 @@ print("""
 Q7 = 'Curto-circuito' 
 print("""Q7- Calcule a resistência equivalente (Req) de uma associação mista, apresentada no esquema abaixo,
 em que os resistores valem, R1 = R2 = R3 = R4 = RMS Ω. Resposta: """, Q7)
+print("""
+
+""")
+Q8 = RMS/8 
+print("""Q8- Calcule a resistência equivalente (Req) de uma associação em paralelo, apresentada no esquema abaixo,
+em que todos os oito resistores possuem o mesmo valor, R = RMS Ω: Resposta: """, Q8)
+print("""
+
+""")
+Q9 = 10*RMS 
+print("""Q9- Determine a tensão elétrica (U) do gerador se a resistência é R = 10 Ω e a corrente elétrica i = RMS A.
+Resposta: """, Q9)
+print("""
+
+""")
+Q10_i2 = 10*RMS/2
+Q10_i3 = 10*RMS/5
+Q10_i1 = Q10_i2 + Q10_i3
+print("""Q10- Determine a alternativa correta que apresenta o valor da correntes elétricas i1, i2 e i3 produzida no
+circuito abaixo, sabendo que a tensão U = 10.RMS V;  RA = 2 Ω e RB = 5 Ω.
+Resposta: """, Q10_i1, Q10_i2, Q10_i3)
